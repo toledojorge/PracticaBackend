@@ -9,6 +9,7 @@ class CargoController extends Controller
 {
     
     public function listar(){
+		echo "hola";
         return Cargo::all();
     }
 
